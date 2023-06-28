@@ -5,6 +5,7 @@ We can select which channel details we need to migrate from MongoDB to MYSQL in 
 Once migrated we can do some Queries from MySQL DB
 
 **Youtube API to MongoDB**
+
 1.Enter API Key which is created from Google developer console to connect with the Youtube API V3
 
 2.Enter Youtube Channel ID to get the details
@@ -18,11 +19,13 @@ Once migrated we can do some Queries from MySQL DB
 6.Once loaded, a success message will be displayed
 
 **SQL Query**
+
 1.In the third tab, a drop down will be displayed with set of questions related to the data in the MySQL tables(channel_details,playlist_details,video_details,comment_details).
 
 2.If any one of the question is selected and "Go" button is clicked, result will be displayed in table format in streamlit App.
 
 **MongoDB to MYSQL DB**
+
 1.In the second tab, a drop down will be displayed with the channel names whatever available in the MongoDB.
 
 2.We can select a channel and migrate it to MySQL.
